@@ -28,9 +28,11 @@
     "gulp-webp": "^4.0.1",
     "gulp-webp-html-nosvg": "^1.0.9",
     "gulp-webpcss": "^1.1.1",
+    "jquery": "^3.6.0",
     "node-sass-tilde-importer": "^1.0.2",
     "require": "^2.4.20",
     "sass": "^1.51.0",
+    "slick-carousel": "^1.8.1",
     "webpack-stream": "^7.0.0"
   },
   "devDependencies": {

@@ -13,6 +13,7 @@
         width: auto
         height: auto
         padding-bottom: 50%
+        overflow-x: hidden 
 
 //Top text
 .create__txt
@@ -25,8 +26,10 @@
     padding-bottom: 5%
 
     @media screen and (max-width: 479px)
+        width: auto
+        height: auto
         margin-left: 7%
-        padding-bottom: 45%
+        padding-bottom: 4%
 
     h2
         font-weight: 600
@@ -65,8 +68,8 @@
     @media screen and (max-width: 479px)
         width: auto
         height: auto
-        grid-template-columns: repeat(1, 325px)
-        grid-template-rows: repeat(1, 1fr)
+        grid-template-columns: repeat(1, 88%) //325px
+        grid-template-rows: repeat(1, 1fr) //1fr
         grid-row-gap: 4%
 
 .create-grid__txt
@@ -81,12 +84,18 @@
         letter-spacing: 0.96px
         color: #102226
 
+        @media screen and (max-width: 479px)
+            margin-top: 5%
+
     p
         font-weight: 400
         font-size: 16px
         line-height: 32px
         letter-spacing: 0.32px
         color: #102226
+
+        @media screen and (max-width: 479px)
+            margin-top: 3%
 
 .create-grid__button
     display: flex
@@ -103,15 +112,24 @@
         text-decoration: none
         outline: none
 
+    @media screen and (max-width: 479px)
+        margin-left: -4%
+        padding-bottom: 7%
+    
+
 //1 block    
 .create-grid__one
     display: flex
     flex-direction: column
     justify-content: center
-    border: 1px solid #DDE3E4
+    border: 1px solid #DDE3E4    
 
 .create-grid__svg-one
     display: none
+
+.create-grid-one__svg
+    @media screen and (max-width: 479px)
+        margin-top: 10%
 
 //2 block
 .create-grid__two
@@ -123,6 +141,10 @@
 .create-grid__svg-two
     display: none
 
+.create-grid-two__svg
+    @media screen and (max-width: 479px)
+        margin-top: 10%
+
 //3 block
 .create-grid__three
     display: flex
@@ -133,6 +155,10 @@
 .create-grid__svg-three
     display: none
 
+.create-grid-three__svg
+    @media screen and (max-width: 479px)
+        margin-top: 10%
+
 //4 block
 .create-grid__four
     display: flex
@@ -142,3 +168,7 @@
 
 .create-grid__svg-four
     display: none
+
+.create-grid-four__svg
+    @media screen and (max-width: 479px)
+        margin-top: 10%

@@ -14,6 +14,7 @@
         height: auto
         padding-top: 10%
         padding-bottom: 10%
+        overflow-x: hidden 
 
 .build-block
     max-width: 100%
@@ -75,7 +76,6 @@
         margin-left: 18%
         margin-top: 40%
 
-
 .build-button
     max-width: 100%
     width: 161px
@@ -92,3 +92,11 @@
         font-size: 14px
         line-height: 20px
         color: #FFFFFF
+
+    @media screen and (max-width: 479px)
+        align-items: center
+
+.build-next
+    @media screen and (max-width: 479px)
+        align-self: center
+        margin-top: 4%
